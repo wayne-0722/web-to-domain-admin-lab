@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.xz
