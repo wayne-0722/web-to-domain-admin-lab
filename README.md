@@ -34,6 +34,9 @@ Domain Controller (192.168.88.100)
 ```text
 External -> Web Exploit -> Credential Theft -> Lateral Movement -> Domain Compromise
 ```
+<p align="center">
+  <img src="evidence/core/attack-path.png" alt="Attack Diagram">
+</p>
 
 This represents a typical real-world attack chain from initial access to full domain compromise.
 

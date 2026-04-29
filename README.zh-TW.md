@@ -35,6 +35,10 @@ Domain Controller (192.168.88.100)
 外部 -> Web漏洞 -> 憑證取得 -> 橫向移動 -> 網域控制
 ```
 
+<p align="center">
+  <img src="evidence/core/attack-path.png" alt="Attack Diagram">
+</p>
+
 此流程代表從初始入侵到完整網域控制的典型攻擊模型。
 
 # Initial Access
