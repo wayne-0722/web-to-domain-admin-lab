@@ -26,7 +26,7 @@ Kali (192.168.203.131)
 → External Network
 Ubuntu/DVWA (192.168.203.130)
 → Windows 10 Workstation
-   (External: 192.168.203.132, Internal: 192.168.88.110)
+(External: 192.168.203.132, Internal: 192.168.88.110)
 → Internal Network
 Domain Controller (192.168.88.100)
 ```
