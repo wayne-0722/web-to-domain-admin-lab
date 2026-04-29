@@ -10,6 +10,8 @@
 
 此攻擊鏈反映真實世界中常見的情境，攻擊者透過多個弱點串聯，最終造成重大安全事件。
 
+本專案於隔離實驗環境中執行，僅用於學習與作品集展示。
+
 # Scope
 
 - 攻擊端：Kali Linux
@@ -21,11 +23,11 @@
 
 ```text
 Kali (192.168.203.131)
--> 外網
+→ 外網
 Ubuntu/DVWA (192.168.203.130)
--> Windows 工作站
+→ Windows 工作站
    (外網: 192.168.203.132, 內網: 192.168.88.110)
--> 內網
+→ 內網
 Domain Controller (192.168.88.100)
 ```
 
@@ -40,6 +42,11 @@ Domain Controller (192.168.88.100)
 </p>
 
 此流程代表從初始入侵到完整網域控制的典型攻擊模型。
+
+# 詳細報告
+
+- [English Report](report/Report.en.md)
+- [中文報告](report/Report.zh-TW.md)
 
 # Initial Access
 
@@ -179,4 +186,4 @@ hashcat 離線破解
 - 落實最小權限原則
 - 部署 SIEM / EDR 偵測橫向移動
 
-完整測試過程與截圖請參考 `/evidence` 資料夾。
+完整測試過程與原始截圖請參考 `evidence/raw` 資料夾。

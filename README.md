@@ -10,6 +10,8 @@ The attack starts from a command injection flaw in a web application and progres
 
 This lab reflects real-world attack scenarios where misconfigurations such as credential reuse and poor network segmentation lead to critical security breaches.
 
+This project was conducted in an isolated lab environment for educational and portfolio purposes.
+
 # Scope
 
 - Attacker: Kali Linux
@@ -21,11 +23,11 @@ This lab reflects real-world attack scenarios where misconfigurations such as cr
 
 ```text
 Kali (192.168.203.131)
--> External Network
+→ External Network
 Ubuntu/DVWA (192.168.203.130)
--> Windows 10 Workstation
+→ Windows 10 Workstation
    (External: 192.168.203.132, Internal: 192.168.88.110)
--> Internal Network
+→ Internal Network
 Domain Controller (192.168.88.100)
 ```
 
@@ -39,6 +41,11 @@ External -> Web Exploit -> Credential Theft -> Lateral Movement -> Domain Compro
 </p>
 
 This represents a typical real-world attack chain from initial access to full domain compromise.
+
+# Detailed Reports
+
+- [English Report](report/Report.en.md)
+- [中文報告](report/Report.zh-TW.md)
 
 # Initial Access
 
@@ -179,4 +186,4 @@ This highlights the importance of defense-in-depth, as a single point of failure
 - Apply least privilege principle
 - Monitor lateral movement using SIEM / EDR
 
-Full raw screenshots and testing artifacts are available in the `/evidence` directory.
+Full raw screenshots and testing artifacts are available in the `evidence/raw` directory.
