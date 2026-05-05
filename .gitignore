@@ -8,8 +8,3 @@ Thumbs.db
 *.tar
 *.gz
 *.xz
-
-# Local application materials
-resume/
-DEVCORE_JOB_ALIGNMENT.zh-TW.md
-DEVCORE_PORTFOLIO.zh-TW.md
