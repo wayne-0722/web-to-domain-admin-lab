@@ -2,7 +2,7 @@
 
 This project simulates a real-world intrusion from a vulnerable web application to full domain compromise.
 
-> Portfolio brief: [PORTFOLIO.zh-TW.md](PORTFOLIO.zh-TW.md)
+> Portfolio brief: [English](PORTFOLIO.en.md) / [繁體中文](PORTFOLIO.zh-TW.md)
 
 # Summary
 

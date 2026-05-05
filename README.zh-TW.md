@@ -2,7 +2,7 @@
 
 本專案模擬從Web漏洞入侵到完整網域控制的真實攻擊情境。
 
-> 作品集展示版本：建議先閱讀 [作品集摘要](PORTFOLIO.zh-TW.md)。
+> 作品集展示版本：建議先閱讀 [繁體中文摘要](PORTFOLIO.zh-TW.md) / [English Brief](PORTFOLIO.en.md)。
 
 # Summary
 
